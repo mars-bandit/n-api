@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "es2018",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"sourceMap": false,
+		"incremental": true,
+		"removeComments": false,
+		"outDir": "../build/"
+	}
+}

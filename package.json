@@ -1,0 +1,17 @@
+{
+  "name": "@sbs/n-api",
+  "version": "0.1.0",
+  "description": "A set of utilities for N-API.",
+  "main": "build/index.js",
+  "repository": "https://github.com/SailingBottleStudio/n-api.git",
+  "author": "blfunex <blfunex@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "node-addon-api": "2.0.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.4.33"
+  }
+}
