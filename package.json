@@ -1,17 +1,47 @@
 {
-  "name": "@sbs/n-api",
-  "version": "0.1.0",
-  "description": "A set of utilities for N-API.",
-  "main": "build/index.js",
-  "repository": "https://github.com/SailingBottleStudio/n-api.git",
-  "author": "blfunex <blfunex@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "adm-zip": "^0.4.16",
-    "node-addon-api": "2.0.0",
-    "node-fetch": "^2.6.0"
-  },
-  "devDependencies": {
-    "@types/adm-zip": "^0.4.33"
-  }
+	"name": "@arrgh/n-api",
+	"version": "0.1.0",
+
+	"description": "A set of utilities for N-API.",
+	"author": "Youness BELFKIH <blfunex@gmail.com>",
+	"repository": "https://github.com/SailingBottleStudio/n-api.git",
+	"license": "MIT",
+
+	"main": "index.js",
+	"engines": {
+		"node": ">=12.13.0",
+		"npm": ">=6.12.0"
+	},
+
+	"dependencies": {
+		"adm-zip": "^0.4.16",
+		"node-addon-api": "2.0.0",
+		"node-fetch": "^2.6.0"
+	},
+	"devDependencies": {
+		"@types/adm-zip": "^0.4.33",
+		"@types/node-fetch": "^2.5.7"
+	},
+
+	"files": [
+		"include",
+		"build",
+		"link.js",
+		"index.js",
+		"LICENSE",
+		"package.json",
+		"README.md"
+	],
+	"keywords": [
+		"headers",
+		"include",
+		"utils",
+		"c++",
+		"addon",
+		"bindings",
+		"native",
+		"napi",
+		"gyp"
+	]
+
 }

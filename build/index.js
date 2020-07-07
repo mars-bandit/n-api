@@ -6,6 +6,7 @@ exports.platform = require("./platform");
 const platform_1 = require("./platform");
 const fs_1 = require("fs");
 const AdmZip = require("adm-zip");
+const fetch = require("node-fetch");
 async function link(name) {
     const src = process.cwd().replace(/\\/g, '/');
     if (!await exists(`${src}/build/Release/${name}.node`)) {

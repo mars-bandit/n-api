@@ -6,6 +6,8 @@ import { bin } from "./platform";
 import { promises as fs, constants } from "fs";
 import * as AdmZip from "adm-zip";
 
+import * as fetch from "node-fetch";
+
 export async function link(name: string) {
 	const src = process.cwd().replace(/\\/g, '/');
 	
